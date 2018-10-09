@@ -1,0 +1,39 @@
+<template>
+    <section class="counter-block">
+        <div class="counter-full-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="counter" data-slno="1" data-min="0" data-max="300" data-delay=".5" data-increment="2">300</div>
+                        <p>best dishes</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="counter" data-slno="1" data-min="0" data-max="225" data-delay="8" data-increment="1">225</div>
+                        <p>awards won</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="counter" data-slno="1" data-min="0" data-max="35" data-delay=".5" data-increment="11">35</div>
+                        <p>our chefs</p>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="counter" data-slno="1" data-min="0" data-max="400" data-delay="8" data-increment="1">400</div>
+                        <p>daily customers</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+</template>
+
+<script>
+export default {
+    name:'Counter'
+}
+</script>
+
+<style>
+
+</style>

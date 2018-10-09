@@ -1,18 +1,59 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+        <Header/>
+        <Welcome/>
+        <Gites/>
+        <Restaurant/>
+        <Customers/>
+        <Reservation/>
+        <Event/>        
+        <Counter/>        
+        <Staff/>        
+        <NewsLetter/>
+        <Contact/>
+        <Footer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import "./assets/css/style.css";
+import "./assets/css/responsive.css";
+import "./assets/css/animate.css";
+import "./assets/css/scrolling-nav.css";
+import "./assets/css/bxslider.css"; 
+import "./assets/fonts/oswald/stylesheet.css";
+import "./assets/font-awesome/css/font-awesome.min.css";
 
+import Header from './components/Header';
+import Welcome from './components/Welcome';
+import Gites from './components/Gites';
+import Restaurant from "./components/Restaurant";
+import Customers from "./components/Customers";
+import Reservation from "./components/Reservation";
+import Event from "./components/Event";
+import Counter from './components/Counter';
+import Staff from './components/Staff';
+import NewsLetter from './components/NewsLetter';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  components:{
+    Header,
+    Welcome,
+    Gites,
+    Restaurant,
+    Customers,
+    Reservation,
+    Event,
+    Counter,
+    Staff,
+    NewsLetter,
+    Contact,
+    Footer
+
   }
+  
 }
 </script>
 
