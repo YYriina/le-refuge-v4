@@ -142,7 +142,7 @@ License URI: http://www.themevault.net/license/
             padding-left: 0;
         }*/
     .special-block .col-sm-4 , .staff-block .col-sm-3 {
-        // padding-left: 0;
+        padding-left: 0;
     }
     .subscribe-form input {
         height: 40px;

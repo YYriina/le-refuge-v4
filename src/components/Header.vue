@@ -15,7 +15,7 @@
 
 
         <div class="div-logo">
-            <img src="../assets/logo.png" alt="">
+            <img src="../assets/logo.png" class="logo" alt="">
         </div>
 
         <Slide>
@@ -70,5 +70,22 @@ export default {
     }
     .item-menu a:hover{
         color :yellow;
+    }
+    .logo{
+        width: 550px;
+    }
+    @media(max-width: 900px){
+        .logo{
+            width: 450;
+        }
+    }
+    @media(max-width: 700px){
+        .logo{
+            width: 400;
+        }
+    }@media(max-width: 500px){
+        .logo{
+            width: 350;
+        }
     }
 </style>

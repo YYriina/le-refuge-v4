@@ -2,7 +2,7 @@
     <section class="contact-block">
         <div class="container">
             <div class="text-head">
-                <h1>contact us</h1>
+                <h1>Nous contacter</h1>
             </div>
 
         </div>
@@ -12,25 +12,25 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" id="name1" class="form-control" placeholder="Name" required="" aria-invalid="false">
+                                <input type="text" id="name1" class="form-control" placeholder="Nom" required="" aria-invalid="false">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" id="contact1" class="form-control" placeholder="Contact Number" required="">
+                                <input type="text" id="contact1" class="form-control" placeholder="Téléphone" required="">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="email" id="email1" class="form-control" placeholder="Email id" required="">
+                                <input type="email" id="email1" class="form-control" placeholder="E-mail" required="">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" id="category1" class="form-control" placeholder="category" required="">
+                                <input type="text" id="category1" class="form-control" placeholder="Sujet" required="">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -41,8 +41,8 @@
                     </div>
                     <div id="success"></div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-lg btn-button">clear</button>
-                        <button type="submit" class="btn btn-lg btn-button">send</button>
+                        <button type="submit" class="btn btn-lg btn-button">Nettoyer</button>
+                        <button type="submit" class="btn btn-lg btn-button">Envoyer</button>
                     </div>
                 </form>
             </div> 

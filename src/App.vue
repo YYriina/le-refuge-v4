@@ -9,7 +9,6 @@
         <Event/>        
         <Counter/>        
         <Staff/>        
-        <NewsLetter/>
         <Contact/>
         <Footer/>
   </div>
@@ -24,6 +23,8 @@ import "./assets/css/bxslider.css";
 import "./assets/fonts/oswald/stylesheet.css";
 import "./assets/font-awesome/css/font-awesome.min.css";
 
+import firebase from 'firebase';
+
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Gites from './components/Gites';
@@ -33,7 +34,6 @@ import Reservation from "./components/Reservation";
 import Event from "./components/Event";
 import Counter from './components/Counter';
 import Staff from './components/Staff';
-import NewsLetter from './components/NewsLetter';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 export default {
@@ -48,10 +48,11 @@ export default {
     Event,
     Counter,
     Staff,
-    NewsLetter,
     Contact,
     Footer
-
+  },
+  created:()=>{
+    console.log(firebase);
   }
   
 }

@@ -2,7 +2,7 @@
     <section class="book-block">
         <div class="container">
             <div class="text-head">
-                <h1>book your table</h1>
+                <h1>Reserver une chambre:</h1>
             </div>
 
         </div>
@@ -12,37 +12,37 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" aria-invalid="false" required="" placeholder="Name" class="form-control" id="name">
+                                <input type="text" aria-invalid="false" required="" placeholder="Nom" class="form-control" id="name">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" required="" placeholder="Contact Number" class="form-control" id="contact">
+                                <input type="text" required="" placeholder="Téléphone" class="form-control" id="contact">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="email" required="" placeholder="Email id" class="form-control" id="email">
+                                <input type="email" required="" placeholder="E-mail" class="form-control" id="email">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" required="" placeholder="Number of person" class="form-control" id="person">
+                                <input type="text" required="" placeholder="Nombre de personne" class="form-control" id="person">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" required="" placeholder="book date" class="form-control" id="bookdate">
+                                <input type="text" required="" placeholder="date de début" class="form-control" id="bookdate">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" required="" placeholder="your date" class="form-control" id="yourdate">
+                                <input type="text" required="" placeholder="date de fin" class="form-control" id="yourdate">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -55,8 +55,8 @@
                     </div>
                     <div id="success"></div>
                     <div class="text-center">
-                        <button class="btn btn-lg btn-button" type="submit">clear</button>
-                        <button class="btn btn-lg btn-button" type="submit">send</button>
+                        <button class="btn btn-lg btn-button" type="submit">Nettoyer</button>
+                        <button class="btn btn-lg btn-button" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div> 

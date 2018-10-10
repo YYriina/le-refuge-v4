@@ -2,52 +2,34 @@
     <section class="service-block">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12 ">
                     <div class="text-head">
-                        <h1>our services</h1>
+                        <h1>Nos Services</h1>
                     </div>
-                    <div class="height-135"></div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="col-md-6 col-sm-4 col-xs-6 remove-padd">
-                                <div class="event-image">
-                                    <img src="images/Home/Image13.png" class="img-responsive">
-                                    <div class="overlay">
-                                        <a class="info" href="#">Birthdays</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-4 col-xs-6 remove-padd">
-                                <div class="event-image">
-                                    <img src="images/Home/Image15.png" class="img-responsive">
-                                    <div class="overlay">
-                                        <a class="info" href="#">Weddings</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-4 col-xs-6 remove-padd">
-                                <div class="event-image">
-                                    <img src="images/Home/Image14.png" class="img-responsive">
-                                    <div class="overlay">
-                                        <a class="info" href="#">Business Events</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-4 col-xs-6 remove-padd">
-                                <div class="event-image">
-                                    <img src="images/Home/Image16.png" class="img-responsive">
-                                    <div class="overlay">
-                                        <a class="info" href="#">Party & Others</a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="height-135 "></div>
+                    <div class="line-service">
+                        <div class="card-service">
+                           <i class="fas fa-truck icons fa-7x"></i>
+                           <p>Traiteur</p>
+                       </div>
+                        <div class="card-service">
+                            <i class="fas fa-hotel fa-7x"></i>
+                            <p>Hébergement</p>
+                        </div>
+                        <div class="card-service">
+                            <i class="fas fa-utensils fa-7x"></i>
+                            <p>Restauration</p>
+                        </div>
+                        <div class="card-service">
+                            <i class="fas fa-gift fa-7x"></i>
+                            <p>Réception</p>
                         </div>
                     </div>
+                      
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-head add-top-space">
-                        <h1>customer feedback</h1>
+                        <h1>Avis des utilisateurs</h1>
                     </div>
                     <div class="height-135"></div>
                     <div class="set-border-left">
@@ -112,5 +94,24 @@ export default {
 </script>
 
 <style>
-
+    .line-service{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-service{
+        margin: 25px;
+        border: 1px solid grey;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-service p{
+        font-size: 25px;
+        font-weight: bold;
+    }
 </style>
