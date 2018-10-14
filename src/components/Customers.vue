@@ -10,77 +10,27 @@
                     <div class="row">
                         <div class="card-service col-md-3 col-sm-6 col-xs-12">
                            <i class="fas fa-truck icons fa-7x"></i>
-                           <p>Traiteur</p>
+                           <h3>Traiteur</h3>
+                           <p>Nous livreons nos bon plat partout sur la guadeloupe</p>
                        </div>
                         <div class="card-service col-md-3 col-sm-6 col-xs-12">
-                            <i class="fas fa-hotel fa-7x"></i>
-                            <p>Hébergement</p>
+                            <i class="fas fa-building fa-7x"></i>
+                            <h3>Hébergement</h3>
+                            <p>Nous mettons a votre disposition des F2 tout équipé avec la clim et la piscine</p>
                         </div>
                         <div class="card-service col-md-3 col-sm-6 col-xs-12">
                             <i class="fas fa-utensils fa-7x"></i>
-                            <p>Restauration</p>
+                            <h3>Restauration</h3>
+                            <p>Notre Restaurant au Bourg de Saint-Louis est ouvert tout les midi et le soir sur réservation</p>
                         </div>
                         <div class="card-service col-md-3 col-sm-6 col-xs-12">
-                            <i class="fas fa-gift fa-7x"></i>
-                            <p>Réception</p>
-                        </div>
-                    </div>
-                    <div class="height-135 "></div>
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="text-head add-top-space">
-                        <h1>Avis des utilisateurs</h1>
-                    </div>
-                    <div class="height-135"></div>
-                    <div class="set-border-left">
-                        <div data-ride="carousel" class="carousel slide" id="myCarousel4"> 
-                            <div class="carousel-inner">
-                                <div class="item active"> 
-                                    <div class="feedback-content">
-                                        <div class="feedback-box">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa loremi psum dolor sitamet, consectetuer adipiscing elit aenean commodo ligula eget do an massa consectetuer adipiscing elit</p>
-                                        </div>
-                                        <div class="feedback-title"><a><i class="fa fa-user"></i></a><span>DAVID WARNER</span></div>
-                                    </div>
-                                </div>
-                                <div class="item"> 
-                                    <div class="feedback-content">
-                                        <div class="feedback-box">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa loremi psum dolor sitamet, consectetuer adipiscing elit aenean commodo ligula eget do an massa consectetuer adipiscing elit</p>
-                                        </div>
-                                        <div class="feedback-title"><a><i class="fa fa-user"></i></a><span>DAVID WARNER</span></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <a data-slide="prev" href="#myCarousel4" class="left carousel-control"> <img alt="left" onmouseout="this.src = 'images/icons/left.png'" onmouseover="this.src = 'images/icons/left-hover.png'" src="images/icons/left.png"></a>
-                            <a data-slide="next" href="#myCarousel4" class="right carousel-control"><img alt="left" onmouseout="this.src = 'images/icons/right.png'" onmouseover="this.src = 'images/icons/right-hover.png'" src="images/icons/right.png"></a>
-                        </div>
-                        <div class="black-line"><hr/></div>
-                        <div data-ride="carousel" class="carousel slide" id="myCarousel5"> 
-                            <div class="carousel-inner">
-                                <div class="item active"> 
-                                    <div class="feedback-content">
-                                        <div class="feedback-box">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa loremi psum dolor sitamet, consectetuer adipiscing elit aenean commodo ligula eget do an massa consectetuer adipiscing elit</p>
-                                        </div>
-                                        <div class="feedback-title"><a><i class="fa fa-user"></i></a><span>DAVID WARNER</span></div>
-                                    </div>
-                                </div>
-                                <div class="item"> 
-                                    <div class="feedback-content">
-                                        <div class="feedback-box">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa loremi psum dolor sitamet, consectetuer adipiscing elit aenean commodo ligula eget do an massa consectetuer adipiscing elit</p>
-                                        </div>
-                                        <div class="feedback-title"><a><i class="fa fa-user"></i></a><span>DAVID WARNER</span></div>
-                                    </div>
-                                </div>
-                                <a data-slide="prev" href="#myCarousel5" class="left carousel-control"> <img alt="left" onmouseout="this.src = 'images/icons/left.png'" onmouseover="this.src = 'images/icons/left-hover.png'" src="images/icons/left.png"></a>
-                                <a data-slide="next" href="#myCarousel5" class="right carousel-control"><img alt="left" onmouseout="this.src = 'images/icons/right.png'" onmouseover="this.src = 'images/icons/right-hover.png'" src="images/icons/right.png"></a>
-                            </div>
+                            <i class="fas fa-birthday-cake fa-7x"></i>
+                            <h3>Réception</h3>
+                            <p>Notre espace privé a Saint-Charles avec piscine parfait pour vos fêtes et réceptions</p>
                         </div>
                     </div>
                 </div>
+            
             </div>
 
         </div>
@@ -106,8 +56,14 @@ export default {
         display: flex;
         flex-direction: column;
     }
-    .card-service p{
+    .card-service h3{
         font-size: 25px;
         font-weight: bold;
+    }
+    .card-service p{
+        font-size: 18px;
+        font-style: italic;
+        font-family: 'Oswald';
+        text-align: center;
     }
 </style>

@@ -94,6 +94,7 @@ export default {
 
 .close-modal{
     color: red;
+    cursor : pointer; 
 }
 
 .close-modal-button{
@@ -110,7 +111,7 @@ export default {
     display: flex;
     justify-content: center;
 }
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 850px) {
     .modal-area {
         background-color: white;
         width: 620px;
