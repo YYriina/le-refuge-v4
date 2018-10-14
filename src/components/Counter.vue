@@ -13,11 +13,11 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="counter" data-slno="1" data-min="0" data-max="35" data-delay=".5" data-increment="11">35</div>
-                        <p>our chefs</p>
+                        <p>Gîtes disponibles</p>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="counter" data-slno="1" data-min="0" data-max="400" data-delay="8" data-increment="1">400</div>
-                        <p>daily customers</p>
+                        <p>Réservation de ce mois</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

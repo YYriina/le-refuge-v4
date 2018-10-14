@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 #gites{
-    background-image: url("../assets/Background.png");
+    background-image: url("../assets/Background.jpg");
     background-size: 30%;
 
 }

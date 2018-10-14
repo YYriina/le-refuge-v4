@@ -7,25 +7,25 @@
                         <h1>Nos Services</h1>
                     </div>
                     <div class="height-135 "></div>
-                    <div class="line-service">
-                        <div class="card-service">
+                    <div class="row">
+                        <div class="card-service col-md-3 col-sm-6 col-xs-12">
                            <i class="fas fa-truck icons fa-7x"></i>
                            <p>Traiteur</p>
                        </div>
-                        <div class="card-service">
+                        <div class="card-service col-md-3 col-sm-6 col-xs-12">
                             <i class="fas fa-hotel fa-7x"></i>
                             <p>Hébergement</p>
                         </div>
-                        <div class="card-service">
+                        <div class="card-service col-md-3 col-sm-6 col-xs-12">
                             <i class="fas fa-utensils fa-7x"></i>
                             <p>Restauration</p>
                         </div>
-                        <div class="card-service">
+                        <div class="card-service col-md-3 col-sm-6 col-xs-12">
                             <i class="fas fa-gift fa-7x"></i>
                             <p>Réception</p>
                         </div>
                     </div>
-                      
+                    <div class="height-135 "></div>
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="text-head add-top-space">
@@ -100,11 +100,7 @@ export default {
         justify-content: space-between;
     }
     .card-service{
-        margin: 25px;
-        border: 1px solid grey;
         border-radius: 50%;
-        height: 200px;
-        width: 200px;
         justify-content: center;
         align-items: center;
         display: flex;

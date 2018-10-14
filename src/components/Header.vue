@@ -1,4 +1,5 @@
 <template>
+    <div>
     <header>
         <div class="container">
             <div class="header-top">
@@ -11,6 +12,7 @@
                     </div>
                 </div>
             </div>
+            <br><br>
         </div>
 
 
@@ -33,6 +35,10 @@
         </Slide>
         <div class="clearfix"></div>
     </header>
+
+
+
+    </div>    
 </template>
 
 <script>
@@ -41,7 +47,8 @@ export default {
     name:'Header',
     components: {
         Slide,
-    }    
+    },
+      
 }
 </script>
 
@@ -88,4 +95,6 @@ export default {
             width: 350;
         }
     }
+
+
 </style>
