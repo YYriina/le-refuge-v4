@@ -48,6 +48,7 @@ export default {
         text-align: center;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .card-service{
         border-radius: 50%;
@@ -63,7 +64,10 @@ export default {
     .card-service p{
         font-size: 18px;
         font-style: italic;
-        font-family: 'Oswald';
         text-align: center;
+    }
+    .bm-menu{
+        background-color: #dbcdb1;
+        border-right:3px solid black; 
     }
 </style>

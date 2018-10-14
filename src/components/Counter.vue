@@ -17,7 +17,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="counter" data-slno="1" data-min="0" data-max="400" data-delay="8" data-increment="1">400</div>
-                        <p>Réservation de ce mois</p>
+                        <p>Réservation ce mois</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

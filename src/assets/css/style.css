@@ -580,7 +580,7 @@ button.close:hover {
     text-align: justify;
 }
 .counter-full-image{
-    background: url('../images/Home/Image20.png') no-repeat scroll 0 0 / cover ;
+    background: url('../images/excursion/banner2.jpg') no-repeat scroll 0 0 / cover ;
     padding: 110px 0;
     color: #fff;
     text-align: center;
@@ -601,38 +601,7 @@ button.close:hover {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-/*subscribe*/
-.subscribe-full-image{
-    background: url('../images/Home/subscribe.png') no-repeat scroll 0 0 / cover ;
-    padding: 110px 0;
-    color: #fff;
 
-}
-.subscribe-info > h2 {
-    font-size: 38px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-}
-.subscribe-form form{
-    margin: 0;
-}
-.subscribe-form input {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 1px solid #fff;
-    font-size: 17px;
-    height: 48px;
-    letter-spacing: 3px;
-    padding-left: 15px;
-    width: 320px;
-}
-.subscribe-form input::-moz-placeholder {
-    color: #e01931;
-    opacity: 1;
-}
-.subscribe-form form button {
-    margin-left: 35px;
-}
 .submit-btn {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #fff;
@@ -647,7 +616,7 @@ button.close:hover {
 }
 /*contact form*/
 .contact-block-full-image{
-    background: url('../images/Home/Image26.png') no-repeat scroll 0 0 / cover ;
+    background: url('../images/excursion/image001.jpg') no-repeat scroll 0 0 / cover ;
     margin-top: 135px;
     padding: 65px 0;
 }

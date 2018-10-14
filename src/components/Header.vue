@@ -21,9 +21,9 @@
         </div>
 
         <Slide>
-            <div id="home"> 
+            <div id="main"> 
                 <div class="menu">
-                    <div class="item-menu"> <a href="#"><i class="fas fa-home"></i> Acceuil</a></div>
+                    <div class="item-menu"><a href="#"><i class="fas fa-home"></i> Acceuil</a></div>
                     <div class="item-menu"><a href="#"><i class="fas fa-hotel"></i> Gites</a></div>
                     <div class="item-menu"><a href="#"><i class="fas fa-utensils"></i> Restaurant</a></div>
                     <div class="item-menu"><a href="#"><i class="fas fa-book-open"></i> Reservation</a></div>
@@ -78,21 +78,18 @@ export default {
     .item-menu a:hover{
         color :yellow;
     }
-    .logo{
-        width: 550px;
-    }
-    @media(max-width: 900px){
+    @media(min-width: 701px){
         .logo{
-            width: 450;
+            width: 450px;
         }
     }
     @media(max-width: 700px){
         .logo{
-            width: 400;
+            width: 400px;
         }
     }@media(max-width: 500px){
         .logo{
-            width: 350;
+            width: 350px;
         }
     }
 

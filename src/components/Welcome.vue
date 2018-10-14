@@ -53,7 +53,7 @@
                         <p>Voilà le mot d'ordre de Georges et Fortuna, vos dévoués hôtes. Car chez eux, vous ètes chez vous. 
                         Tous les services sont optimisés afin que vous passiez le meilleur moment possible. Un cadre calme et agrèable, une atmosphère chaleureuse,
                         une table de qualité, tout cela servi avec une constante bonne humeur. Alors n'attendez plus et venez nous voir, nous vous attendons.</p>
-                        <a class="read-more" @click="this.clickModal">Read More</a>
+                        <a class="read-more" @click="this.clickModal">Voir plus</a>
                     </div>
                 </div>
             </div>
@@ -86,10 +86,11 @@ export default {
   justify-content: center;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: rgba(0,0,0,0.15);  
+  background: rgba(0,0,0,0.45);
+  z-index: 99999999;
 }
 
 .close-modal{
@@ -111,7 +112,8 @@ export default {
     display: flex;
     justify-content: center;
 }
-    @media screen and (max-width: 850px) {
+
+    @media screen and (max-width: 624px) {
     .modal-area {
         background-color: white;
         width: 620px;
@@ -129,7 +131,6 @@ export default {
     .modal-area {
         margin: 15%;
         background-color: white;
-        z-index: 3;
         width: 100%;
         height: 90%;
         border-radius: 4%;

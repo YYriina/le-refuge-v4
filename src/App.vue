@@ -17,9 +17,6 @@
 <script>
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
-import "./assets/css/animate.css";
-import "./assets/css/scrolling-nav.css";
-import "./assets/css/bxslider.css"; 
 import "./assets/fonts/oswald/stylesheet.css";
 import "./assets/font-awesome/css/font-awesome.min.css";
 
@@ -59,12 +56,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
