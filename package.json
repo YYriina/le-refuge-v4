@@ -9,10 +9,12 @@
     "prod": "npm run serve --production -- --port 80"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "firebase": "^5.5.3",
     "jquery": "^3.3.1",
     "vue": "^2.5.17",
     "vue-burger-menu": "^1.0.7",
+    "vue-carousel": "^0.14.0",
     "vue-slick": "^1.1.13"
   },
   "devDependencies": {

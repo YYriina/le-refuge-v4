@@ -4,6 +4,26 @@
             <div class="text-head">
                 <h1>Restaurant</h1>
             </div>
+            <div class="height-135 "></div>
+            <div class="row carousel-container">
+                <carousel :per-page="3">
+                    <slide>
+                        Slide 1 Content
+                    </slide>
+                    <slide>
+                        Slide 2 Content
+                    </slide>
+                    <slide>
+                        Slide 3 Content
+                    </slide>
+                    <slide>
+                        Slide 4 Content
+                    </slide>
+                    <slide>
+                        Slide 5 Content
+                    </slide>
+                </carousel>
+            </div>
         </div>
         
         <div class="clearfix"></div>
@@ -11,8 +31,13 @@
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel';
 export default {
-    name:'Restaurant'
+    name:'Restaurant',
+    components: {
+        Carousel,
+        Slide
+    }
 }
 </script>
 
@@ -20,6 +45,10 @@ export default {
 #restaurant{
     background-image: url("../assets/Background.jpg");
     background-size: 30%;
-
+}
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

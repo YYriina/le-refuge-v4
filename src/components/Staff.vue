@@ -10,36 +10,25 @@
                     <div class="item active"> 
                         <div class="row">
                             <div class="col-md-3 col-sm-3 col-xs-3">
+                                
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <div class="staff-image">
-                                    <img class="img-responsive" src="../assets/images/Home/Image21.png">
+                                    <img class="img" src="../assets/images/staff/papou.jpg">
                                     <div class="overlay">
-                                        <a href="#" class="info">Pedro Araez</a>
+                                        <a href="#" class="info">Georges HULMAN</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-3">
                                 <div class="staff-image">
-                                    <img class="img-responsive" src="../assets/images/Home/Image22.png">
+                                    <img class="img" src="../assets/images/staff/mamou.jpg">
                                     <div class="overlay">
-                                        <a href="#" class="info">Fidel Martin</a>
+                                        <a href="#" class="info">Juliette HULMAN</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-3 col-xs-3">
-                                <div class="staff-image">
-                                    <img class="img-responsive" src="../assets/images/Home/Image23.png">
-                                    <div class="overlay">
-                                        <a href="#" class="info">Henry Jurk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
-                                <div class="staff-image">
-                                    <img class="img-responsive" src="../assets/images/Home/Image24.png">
-                                    <div class="overlay">
-                                        <a href="#" class="info">Jules Boutin</a>
-                                    </div>
-                                </div>
                             </div>
 
 
@@ -59,5 +48,8 @@ export default {
 </script>
 
 <style>
-
+.img{
+    width: 100%;
+    height: auto;
+}
 </style>

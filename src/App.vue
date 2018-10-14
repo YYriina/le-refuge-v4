@@ -20,7 +20,15 @@ import "./assets/css/responsive.css";
 import "./assets/fonts/oswald/stylesheet.css";
 import "./assets/font-awesome/css/font-awesome.min.css";
 
-import firebase from 'firebase';
+// Firebase App is always required and must be first
+var firebase = require("firebase/app");
+
+// Add additional services that you want to use
+require("firebase/auth");
+require("firebase/database");
+require("firebase/firestore");
+require("firebase/messaging");
+require("firebase/functions");
 
 import Header from './components/Header';
 import Welcome from './components/Welcome';
@@ -49,7 +57,11 @@ export default {
     Footer
   },
   created:()=>{
-    console.log(firebase);
+    var event = firebase.database().ref('events');
+    event.on('value', function(snapshot) {
+      event = snapshot;
+    });
+    console.log(event.value)
   }
   
 }

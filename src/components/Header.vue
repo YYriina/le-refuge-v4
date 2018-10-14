@@ -4,10 +4,10 @@
         <div class="container">
             <div class="header-top">
                 <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-6">
+                    <div class="col-md-5 col-sm-5 col-xs-5">
                         <p>Routes des sources Section Saint-Charles</p>
                     </div>
-                    <div class=" offset-md-2 offset-sm-2 col-md-5 col-sm-5 col-xs-6 text-right">
+                    <div class=" offset-md-1 offset-sm-1 col-md-5 col-sm-5 col-xs-6 text-right">
                         <p>Heure d'ouverture: 11:00 - 16:00</p>
                     </div>
                 </div>
@@ -17,10 +17,10 @@
 
 
         <div class="div-logo">
-            <img src="../assets/logo.png" class="logo" alt="">
+            <a href="http://refugehulman.com/"><img src="../assets/logo.png" class="logo" alt="logo entreprise"></a>
         </div>
 
-        <Slide>
+        <Slide noOverlay>
             <div id="main"> 
                 <div class="menu">
                     <div class="item-menu"><a href="#"><i class="fas fa-home"></i> Acceuil</a></div>

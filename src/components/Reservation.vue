@@ -2,7 +2,7 @@
     <section class="book-block">
         <div class="container">
             <div class="text-head">
-                <h1>Reserver une chambre:</h1>
+                <h1>Réservation:</h1>
             </div>
 
         </div>

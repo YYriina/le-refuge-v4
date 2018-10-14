@@ -1,10 +1,10 @@
 <template>
             <section class="welcome-block">
             <div v-show="modalVis">
-                <div class="modal-container">    
+                <div class="modal-container"> 
+                    <a class="close-modal-button" @click="this.clickModal"><i class="fas fa-times fa-2x red close-modal"></i></a>   
                     <div class="modal-area">
                         <div class="row">
-                            <a class="close-modal-button" @click="this.clickModal"><i class="fas fa-times fa-2x red close-modal"></i></a>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="title-name">
                                     <h1>Marie-Galante</h1>
@@ -99,8 +99,8 @@ export default {
 }
 
 .close-modal-button{
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 5%;
     left: 95%;
 }
 

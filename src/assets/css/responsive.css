@@ -166,6 +166,12 @@ License URI: http://www.themevault.net/license/
 
 }
 @media(max-width: 767px){
+    .book-block-full-image{
+        background-position: 5%;
+        background-size: 200%;
+        margin-top: 135px;
+        padding: 65px 0;
+    }
     .logo-mobile{
         text-align: center
     }
@@ -425,6 +431,7 @@ License URI: http://www.themevault.net/license/
 
 }
 @media(min-width: 640px) and (max-width: 767px){
+    
 
 }
 @media(min-width: 580px) and (max-width: 767px){
