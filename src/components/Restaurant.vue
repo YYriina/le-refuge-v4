@@ -5,24 +5,8 @@
                 <h1>Restaurant</h1>
             </div>
             <div class="height-135 "></div>
-            <div class="row carousel-container">
-                <carousel :per-page="3">
-                    <slide>
-                        Slide 1 Content
-                    </slide>
-                    <slide>
-                        Slide 2 Content
-                    </slide>
-                    <slide>
-                        Slide 3 Content
-                    </slide>
-                    <slide>
-                        Slide 4 Content
-                    </slide>
-                    <slide>
-                        Slide 5 Content
-                    </slide>
-                </carousel>
+            <div class="col-md-12">
+               <CarouselRestau :slideNumber="getScreenSize"/>
             </div>
         </div>
         
@@ -31,13 +15,23 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+import CarouselRestau from './carousel/CarouselRestau';
 export default {
     name:'Restaurant',
     components: {
-        Carousel,
-        Slide
-    }
+        CarouselRestau
+    },
+    computed:{
+      getScreenSize:()=>{
+        if (screen.width<400){
+          return parseInt(2)
+        }else if(screen.width < 800 && screen.width>400){
+          return parseInt(3)
+        }else if(screen.width>800){
+          return parseInt(4)
+        }
+      }
+    },
 }
 </script>
 
@@ -45,10 +39,20 @@ export default {
 #restaurant{
     background-image: url("../assets/Background.jpg");
     background-size: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .carousel-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 90%;
+}
+.img-restau{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 </style>
