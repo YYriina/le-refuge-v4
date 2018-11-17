@@ -1,6 +1,6 @@
 <template>
     <section class="staff-block">
-        <div class="container">
+        <div class="container" id="team">
             <div class="text-head">
                 <h1>Notre équipe:</h1>
             </div>

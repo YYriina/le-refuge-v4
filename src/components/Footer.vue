@@ -5,12 +5,12 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 width-50">
                     <div class="footer-block"><h4>Naviguer</h4>
                         <ul class="list-unstyled">
-                            <li class="active"><a href="home.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="menu.html">menu</a></li>
-                            <li><a href="service.html">service</a></li>
-                            <li> <a href="event.html">Events</a></li>
-                            <li> <a href="contact.html">Contact us</a></li>
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#gites">Gites</a></li>
+                            <li><a href="#restaurant">Restaurant</a></li>
+                            <li><a href="#reservation">Reservation</a></li>
+                            <li> <a href="#team">Équipe</a></li>
+                            <li> <a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>

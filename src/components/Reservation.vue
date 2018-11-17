@@ -1,5 +1,5 @@
 <template>
-    <section class="book-block">
+    <section class="book-block" id="reservation">
         <div class="container">
             <div class="text-head">
                 <h1>Réservation:</h1>
@@ -18,7 +18,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" v-model="tel" required="" placeholder="Téléphone" class="form-control" id="contact">
+                                <input type="text" v-model="tel" required="" placeholder="Téléphone" class="form-control">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -55,8 +55,8 @@
                     </div>
                     <div id="success"></div>
                     <div class="text-center">
-                        <button class="btn btn-lg btn-button" @click="this.clearForm" type="submit">Nettoyer</button>
-                        <button class="btn btn-lg btn-button" @click="this.submitForm" type="submit">Envoyer</button>
+                        <button class="btn btn-lg btn-button" @click="this.clearForm">Nettoyer</button>
+                        <button class="btn btn-lg btn-button" @click="this.submitForm">Envoyer</button>
                     </div>
                 </form>
             </div> 
@@ -65,6 +65,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     name:'Reservation',
     data:()=>{
@@ -89,7 +90,25 @@ export default {
             this.msg=''
         },
         submitForm : function(){
-
+            axios.get('http://mailer.refugehulman.com', {
+                params: {
+                name:`nom : ${this.nom}`,
+                mail :this.mail,
+                msg:`nom : ${this.nom} , tel : ${this.tel}, mail :${this.mail} 
+                \n reservation du ${this.debut} au ${this.fin} pour ${this.nbr} de personne 
+                \n message : ${this.msg} \n`,
+                subject :`reservation pour un gite`
+                }
+            })
+            .then(function (response) {
+                console.log(response)
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+            .then(function () {
+                location.reload();
+            });  
         }
     }
 }

@@ -1,12 +1,12 @@
 <template>
-    <section class="contact-block">
+    <section class="contact-block" >
         <div class="container">
             <div class="text-head">
                 <h1>Nous contacter</h1>
             </div>
 
         </div>
-        <div class="contact-block-full-image">
+        <div class="contact-block-full-image" id="contact">
             <div class="container">
                 <form name="sentMessage" id="contactForm">
                     <div class="row">
@@ -41,8 +41,8 @@
                     </div>
                     <div id="success"></div>
                     <div class="text-center">
-                        <button type="submit" @click="this.clearForm" class="btn btn-lg btn-button">Nettoyer</button>
-                        <button type="submit" class="btn btn-lg btn-button">Envoyer</button>
+                        <button @click="this.clearForm" class="btn btn-lg btn-button">Nettoyer</button>
+                        <button @click="this.submitForm" class="btn btn-lg btn-button">Envoyer</button>
                     </div>
                 </form>
             </div> 
@@ -52,6 +52,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
     name:'Contact',
     data:()=>{
@@ -72,7 +74,25 @@ export default {
             this.msg=''
         },
         submitForm : function(){
-
+             axios.get('http://mailer.refugehulman.com', {
+                params: {
+                name:`nom : ${this.nom}` ,
+                mail :this.mail,
+                msg:`nom : ${this.nom} , tel : ${this.tel}, mail :${this.mail} \n 
+                demande de prise de contact ou de renseignement
+                \n message : ${this.msg} \n`,
+                subject :this.sujet
+                }
+            })
+            .then(function (response) {
+                console.log(response)
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+            .then(function () {
+                location.reload();
+            });  
         }
     }
 }

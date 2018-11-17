@@ -24,7 +24,7 @@ export default {
     computed:{
       getScreenSize:()=>{
         if (screen.width<400){
-          return parseInt(2)
+          return parseInt(1)
         }else if(screen.width < 800 && screen.width>400){
           return parseInt(3)
         }else if(screen.width>800){

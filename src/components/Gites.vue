@@ -5,12 +5,22 @@
         </div>
         <div class="container">
             <slick ref="slick" :options="slickOptions">
-                <div><CardGites/></div>
-                <div><CardGites/></div>
-                <div><CardGites/></div>
-                <div><CardGites/></div>
-                <div><CardGites/></div> 
-                <div><CardGites/></div>
+                <div class="img-container">
+                    <h3 class="title-name text-center">Emeraude</h3>
+                    <img class="img-carousel" src='../assets/images/gites/emeraude/chambre.jpg' />
+                </div>
+                <div class="img-container">
+                    <h3 class="title-name text-center">Opale</h3>
+                    <img class="img-carousel" src='../assets/images/gites/opale/chambre.jpg' />
+                </div>
+                <div class="img-container">
+                    <h3 class="title-name text-center">Topaze</h3>
+                    <img class="img-carousel" src='../assets/images/gites/topaze/chambre.jpg' />
+                </div>
+                <div class="img-container">
+                    <h3 class="title-name text-center">Turquoise</h3>
+                    <img class="img-carousel" src='../assets/images/gites/turquoise/chambre.jpg' />
+                </div> 
             </slick>
         </div>
         <div class="clearfix"></div>
@@ -18,13 +28,13 @@
 </template>
 
 <script>
-import CardGites from './CardGites';
 import Slick from 'vue-slick';
 import '../../node_modules/slick-carousel/slick/slick.css';
+
+const ambre = require('../assets/images/gites/ambre/DSCN0945.jpg');
 export default {
     name:'Gites',
     components: {
-        CardGites,
         Slick
     },
     data() {
@@ -32,6 +42,9 @@ export default {
             slickOptions: {
                 slidesToShow: 1,
                 accessibility:false,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 // Any other options that can be got from plugin documentation
             },
         };
@@ -65,6 +78,19 @@ export default {
 .container{
     opacity: 1;
 }
+.img-carousel{
+    height: 500px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 15px;
 
+}
+.img-container{
+    background-color: bisque;
+}
+.text-center{
+    text-align: center;
+    padding: 20px;
+}
 </style>
 

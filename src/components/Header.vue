@@ -2,13 +2,10 @@
     <div>
     <header>
         <div class="container">
-            <div class="header-top">
+            <div class="header-top" id="home">
                 <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-5">
-                        <p>Routes des sources Section Saint-Charles</p>
-                    </div>
-                    <div class=" offset-md-1 offset-sm-1 col-md-5 col-sm-5 col-xs-6 text-right">
-                        <p>Heure d'ouverture: 11:00 - 16:00</p>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <p>Le Refuge Hulman : Routes des sources Section Saint-Charles</p>
                     </div>
                 </div>
             </div>
@@ -23,13 +20,12 @@
         <Slide noOverlay>
             <div id="main"> 
                 <div class="menu">
-                    <div class="item-menu"><a href="#"><i class="fas fa-home"></i> Acceuil</a></div>
-                    <div class="item-menu"><a href="#"><i class="fas fa-hotel"></i> Gites</a></div>
-                    <div class="item-menu"><a href="#"><i class="fas fa-utensils"></i> Restaurant</a></div>
-                    <div class="item-menu"><a href="#"><i class="fas fa-book-open"></i> Reservation</a></div>
-                    <div class="item-menu"><a href="#"><i class="fas fa-calendar-alt"></i> Êvènements</a></div>
-                    <div class="item-menu"><a href="#"><i class="far fa-handshake"></i> Equipe</a></div>
-                    <div class="item-menu"><a href="#"><i class="fas fa-at"></i> Contact</a></div>
+                    <div class="item-menu"><a href="#home"><i class="fas fa-home"></i> Acceuil</a></div>
+                    <div class="item-menu"><a href="#gites"><i class="fas fa-hotel"></i> Gites</a></div>
+                    <div class="item-menu"><a href="#restaurant"><i class="fas fa-utensils"></i> Restaurant</a></div>
+                    <div class="item-menu"><a href="#reservation"><i class="fas fa-book-open"></i> Reservation</a></div>
+                    <div class="item-menu"><a href="#team"><i class="far fa-handshake"></i> Equipe</a></div>
+                    <div class="item-menu"><a href="#contact"><i class="fas fa-at"></i> Contact</a></div>
                 </div>
             </div>
         </Slide>
@@ -53,6 +49,20 @@ export default {
 </script>
 
 <style>
+    .main{
+        height: 100vh;
+    }
+    .menu{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .text-left{
+        text-align: left
+    }
     .div-logo{
         display: flex;
         justify-content: center;
@@ -87,11 +97,10 @@ export default {
         .logo{
             width: 400px;
         }
-    }@media(max-width: 500px){
+    }@media(max-width: 550px){
         .logo{
-            width: 350px;
+            width: 250px;
         }
     }
-
 
 </style>
